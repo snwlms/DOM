@@ -1,0 +1,14 @@
+{
+  "name": "working_with_dom",
+  "version": "1.0.0",
+  "description": "Teaching myself javascript",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Santosh Mangang",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
