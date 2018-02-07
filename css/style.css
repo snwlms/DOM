@@ -1,3 +1,4 @@
+/*
 *{
     margin:0;
     padding:0;
@@ -49,3 +50,49 @@ ul li{
 .complete{
     background-color: #292929;
 }
+
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7rem;
+  background-color: #222;
+  color: #ccc; }
+
+.primary {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 3rem 0; }
+
+.secondary {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem; }
+
+.groceries {
+  font-size: 1.6rem;
+  width: 90vw;
+  list-style: none; }
+  .groceries .groceries__item {
+    padding: 1.2rem 0; }
+    .groceries .groceries__item-hot {
+      background-color: #ad4d3b; }
+    .groceries .groceries__item-cool {
+      background-color: #3d6a9e; }
+    .groceries .groceries__item-normal {
+      background-color: #b56014; }
+    .groceries .groceries__item-complete {
+      background-color: #292929; }
